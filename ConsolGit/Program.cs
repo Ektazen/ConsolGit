@@ -11,6 +11,8 @@ namespace ConsolGit
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to git");
+            Person p = new Person();
+            p.Id = 100;
             Console.ReadLine();
         }
     }
